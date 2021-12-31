@@ -1,0 +1,58 @@
+*{
+    background-color:rgb(241,241,241);
+}
+
+.about__me{
+    display:flex;
+    height:100%;    
+}
+
+.tellabout__me{
+    border:1px solid white;
+    border-radius:5px;
+    /* margin-left:auto; */
+    /* margin-right:auto; */
+    height:100%;
+    /* margin:5vh; */
+    margin-bottom:3vh;
+    padding:1em;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    background-color:white;
+    box-shadow:2px 2px 8px 3px rgb(78, 78, 78);
+}
+
+h4{
+    font-weight:normal;
+    margin-top:5vh;
+    background-color:white;
+}
+
+.title__name{
+    
+    background-color:white;
+    margin-bottom:2px;
+}
+
+h3{
+    font-weight:500;
+    background-color:white;
+}
+
+hr{
+    
+    margin:3px 0 3px 0;
+}
+
+.wavinghand{
+    color:orangered;
+}
+
+p{
+    background-color:white;
+}
+
+b{
+    background-color:white;
+}

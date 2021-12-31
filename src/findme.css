@@ -1,0 +1,72 @@
+*{
+    background-color:rgb(241,241,241);
+}
+
+.find__me{
+    /* display:flex;
+    height:100%; */
+    border:1px solid white;
+    border-radius:5px;
+    /* margin-left:auto; */
+    /* margin-right:auto; */
+    height:100%;
+    /* margin:5vh; */
+    padding:1em;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    background-color:white;
+    /* box-shadow:5px 5px 8px 5px rgb(78, 78, 78);     */
+}
+
+.find__me__icons{
+    
+}
+
+
+
+.findme{
+    
+    background-color:white;
+    margin-bottom:2px;
+}
+
+
+
+hr{
+    color:white;
+    margin:3px 0 3px 0;
+}
+
+.icons__find{
+    background-color:white;
+}
+
+.git, .gm, .lin, .pdf{
+    margin-top:4vh;
+    margin-bottom:3vh;
+    width:20vw;
+    height:8vh;
+    background-color:white;
+    
+}
+
+.git{
+    color:green;
+}
+
+.gm{
+    color:orangered;
+}
+
+.lin{
+    color:blue;
+}
+
+.pdf{
+    color:red;
+}
+
+a{
+    background-color:white;
+}
