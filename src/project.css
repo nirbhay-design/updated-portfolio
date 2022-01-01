@@ -13,8 +13,12 @@
     flex-direction:column;
     flex-wrap:wrap;
     background-color:white;
+    animation-name:showexp;
+    animation-timing-function:linear;
+    animation-duration:1s;
     box-shadow:0px 2px 8px 3px rgb(78, 78, 78);
 }
+
 
 .each__project{
     background-color:white;

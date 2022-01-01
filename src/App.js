@@ -1,4 +1,4 @@
-import expimg from './experienceimg.jfif'
+
 import './App.css';
 import Aboutme from './Aboutme.js'
 import Findme from './Findme.js'
@@ -6,12 +6,15 @@ import Experience from './Experience.js'
 import Skill from './Skill.js'
 import Project from './Project.js'
 import Header from './Header.js'
+import Showresume from './Showresume.js'
+import {useState} from 'react'
 function App() {
+  const [toggle, SetToggle] = useState(0);
   return (
     <div className="App">
       <Header/>
-      
-      <Aboutme />
+      <Aboutme toggle={toggle} settoggle={SetToggle}/>
+      <Showresume toggle={toggle}/>
       <h2 className="text__between" id = "expprojects">Here are my Experience Projects </h2>
       <Experience />
       <h2 className="text__between" id = "skillsets">Here is My Skill Set</h2>

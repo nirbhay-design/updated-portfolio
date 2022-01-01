@@ -9,7 +9,9 @@ body{
     /* display:flex;
     height:100%;
     flex-direction:column;     */
-    /* position:fixed; */
+    /* position:sticky; */
+    z-index:1;
+    top:0;
     border:1px solid white;
     border-radius:5px;
     /* margin-left:auto; */

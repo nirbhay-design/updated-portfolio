@@ -12,12 +12,20 @@
     height:100%;
     /* margin:5vh; */
     /* margin-bottom:3vh; */
+    animation-name:showabout;
+    animation-timing-function: linear;
+    animation-duration:1s;
     padding:1em;
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
     background-color:white;
     box-shadow:0px 2px 8px 3px rgb(78, 78, 78);  
+}
+
+@keyframes showabout {
+    from {opacity:0}
+    to {opacity:1}
 }
 
 .tellabout__me{
@@ -70,3 +78,39 @@ b{
     margin-right:auto;
     margin-top:25px;
 }
+
+.resume__button{
+    width:30%;
+    /* display:flex; */
+    /* flex-wrap:wrap; */
+    padding:2vw 1vw 2vw 1vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3vh;
+    border:2px solid white;
+    /* background-color:#2E4057; */
+    background-color:#3C1053FF;
+    border-radius:1vh;
+    color:white;
+    font-size:3vw;
+    cursor:grab;
+}
+
+@media screen and (min-width:1000px) {
+    .resume__button{
+        padding:1vw;
+        padding-top:1.5vw;
+        padding-bottom:1.5vw;
+        font-size:2vw;
+    }
+}
+
+@media screen and (max-width:500px){
+    .resume__button{
+        padding-left:2vw;
+        padding-right:2vw;
+        font-size:4vw;
+    }
+}
+
+
