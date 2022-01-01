@@ -1,1 +1,21 @@
 
+.text__between{
+    background-color:#00203FFF;
+    padding:5vh;
+    text-align:center;
+    color:white;
+    border:1px solid white;
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0px auto 0px auto;
+    /* width:50%; */
+    /* height:50vh; */
+}
+
+/* .expimg{
+    margin-left:5px;
+    height:100%;
+    width:100%;
+} */

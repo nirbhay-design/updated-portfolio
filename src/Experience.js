@@ -23,7 +23,7 @@ function Experience() {
             {myexpr.map((exp,index)=>{
                 return <>
                         <div className="myexpr">
-                            <h3>{exp.projtitle}</h3>
+                            <h3>{index+1}-{exp.projtitle}</h3>
                             <p><b>Mentor</b>: Dr. {exp.prof}</p>
                             <p><b>Duration</b>: {exp.duration}</p>
 

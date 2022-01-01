@@ -1,0 +1,76 @@
+
+
+body{
+    background-color:white;
+}
+
+
+.header__class{
+    /* display:flex;
+    height:100%;
+    flex-direction:column;     */
+    /* position:fixed; */
+    border:1px solid white;
+    border-radius:5px;
+    /* margin-left:auto; */
+    /* margin-right:auto; */
+    height:100%;
+    /* margin:2vh; */
+    padding:1em;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    background-color:#3C1053FF;
+    box-shadow:2px 2px 8px 3px rgb(78, 78, 78);
+}
+
+.all__options{
+    background-color:#3C1053FF;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding:1vw;
+    flex:0.4
+}
+
+.tempcont{
+    flex:0.3;
+    background-color:#3C1053FF;
+}
+
+.options__all{
+    color:black;
+    font-size:3vh;
+    font-weight:500;
+    margin:0 2px 0 2px;
+    background-color:#3C1053FF;
+    color:white;
+    /* transition:all 0.5s linear; */
+}
+
+.options__all:hover{
+    border-bottom:2px solid white;
+}
+
+/* a{
+    background-color:white;
+} */
+
+@media only screen and (max-width: 1000px) {
+    .all__options {
+      flex: 1;
+    }
+    .tempcont{
+        flex:0;
+    }
+    .iitj__img{
+        display:none;
+    }
+  }
+
+.iitj__img{
+    width:10vh;
+    height:10vh;
+    border:2px solid white;
+    border-radius:50%;
+}

@@ -20,7 +20,7 @@
 }
 
 .find__me__icons{
-    
+    background-color:white;
 }
 
 
@@ -34,21 +34,23 @@
 
 
 hr{
-    color:white;
+    background-color:white;
     margin:3px 0 3px 0;
 }
 
 .icons__find{
     background-color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .git, .gm, .lin, .pdf{
     margin-top:4vh;
     margin-bottom:3vh;
-    width:20vw;
-    height:8vh;
+    width:10vw;
+    height:5vh;
     background-color:white;
-    
 }
 
 .git{
@@ -69,4 +71,9 @@ hr{
 
 a{
     background-color:white;
+}
+
+.copy__right{
+    text-align:center;
+    margin-top:1vh;
 }

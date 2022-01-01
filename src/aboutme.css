@@ -3,24 +3,27 @@
 }
 
 .about__me{
-    display:flex;
-    height:100%;    
-}
-
-.tellabout__me{
+    /* display:flex;
+    height:100%;   */
     border:1px solid white;
     border-radius:5px;
     /* margin-left:auto; */
     /* margin-right:auto; */
     height:100%;
     /* margin:5vh; */
-    margin-bottom:3vh;
+    /* margin-bottom:3vh; */
     padding:1em;
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
     background-color:white;
-    box-shadow:2px 2px 8px 3px rgb(78, 78, 78);
+    box-shadow:0px 2px 8px 3px rgb(78, 78, 78);  
+}
+
+.tellabout__me{
+    display:flex;
+    flex-direction:column;
+    background-color:white;
 }
 
 h4{
@@ -47,6 +50,7 @@ hr{
 
 .wavinghand{
     color:orangered;
+    background-color:white;
 }
 
 p{
@@ -55,4 +59,14 @@ p{
 
 b{
     background-color:white;
+}
+
+.aboutme__image{
+    border:1px solid white;
+    border-radius:50%;
+    height:30vh;
+    width:30vh;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25px;
 }
