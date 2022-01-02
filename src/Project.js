@@ -59,7 +59,7 @@ function Project() {
             github:"https://github.com/nirbhay-design/ML-DL-algo-from-scratch",
             livelink:null,
             category:"Machine learning",
-            desc:"This is the github repo maintained in which I have implemetned some of the neural network architectures from scratch in pytorch.",
+            desc:"This is the github repo maintained in which I have implemented some of the neural network architectures from scratch in pytorch.",
             tech:<SiPytorch className='iconss'/>
         },
 

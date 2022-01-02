@@ -42,11 +42,12 @@ body{
 
 .options__all{
     color:black;
-    font-size:3vh;
+    font-size:1em;
     font-weight:500;
     margin:0 2px 0 2px;
     background-color:#3C1053FF;
     color:white;
+    cursor:pointer;
     /* transition:all 0.5s linear; */
 }
 
@@ -75,4 +76,58 @@ body{
     height:10vh;
     border:2px solid white;
     border-radius:50%;
+}
+
+.drop__button{
+    border:1px solid #3C1053FF;
+    border-radius:3px;
+    display:none;
+    background-color:#3C1053FF
+}
+
+.ham{
+    width:2em;
+    height:2em;
+    background-color:#3C1053FF;
+    color:white;
+}
+@media screen and (max-width:700px){
+    .drop__button{
+        display:flex;
+    }
+    .all__options{
+        display:none;
+    }
+    .header__class{
+        flex-direction:column;
+    }
+
+    .options__all{
+        margin:3px 0 3px 0;
+        padding:3px;
+        transition:all 0.5s linear;
+    }
+    .options__all:hover{
+        border:none;
+        background-color:rgb(221, 219, 219);
+        color:black;
+        
+        border-radius:5px;
+    }
+    /* .options__all{
+        font-size:5vh;
+    } */
+}
+
+.toggle__options{
+    display:flex;
+    flex-direction:column;
+    background-color:#3C1053FF;
+    animation-name:togoptions;
+    animation-duration:1s;
+    animation-timing-function:linear;
+}
+@keyframes togoptions {
+    from {opacity:0}
+    to {opacity:1px}
 }
